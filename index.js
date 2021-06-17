@@ -19,7 +19,6 @@ function deleteFromEmployeeByKey(employee, key){
    const newEmployee = Object.assign({}, employee);
    delete newEmployee[key];
    return newEmployee
-
 }
 
 function destructivelyDeleteFromEmployeeByKey(employee, key){
@@ -28,3 +27,4 @@ function destructivelyDeleteFromEmployeeByKey(employee, key){
     return newEmployee
  
 }
+
